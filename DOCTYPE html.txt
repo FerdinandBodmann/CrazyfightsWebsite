@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html lang="de"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Crazyfights: Ein neues Leben</title> 
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #f4f4f4; 
+            color: #333; 
+            margin: 20px; 
+        } 
+        header { 
+            text-align: center; 
+            padding: 20px; 
+            background-color: #007bff; 
+            color: #fff; 
+        } 
+        section { 
+            margin-top: 20px; 
+        } 
+        h2 { 
+            color: #007bff; 
+        } 
+        p { 
+            line-height: 1.6; 
+        } 
+        footer { 
+            text-align: center; 
+            padding: 10px; 
+            background-color: #007bff; 
+            color: #fff; 
+            position: fixed; 
+            bottom: 0; 
+            width: 100%; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <header> 
+        <h1>Willkommen bei Crazyfights</h1> 
+    </header> 
+    <section> 
+        <h2>Crazyfights: Ein neues Leben</h2> 
+        <p> 
+            Willkommen auf der Seite, auf der wir das aufregende Online-Spiel "Crazyfights: Ein neues Leben" vorstellen! In diesem Spiel geht es darum, Mobs zu bekämpfen, um mehr Level zu erreichen. 
+        </p> 
+        <p> 
+            Das Spiel ist speziell für Windows entwickelt und bietet spannende Action, wenn du gegen verschiedene Mobs kämpfst, um deine Fähigkeiten zu verbessern und im Spiel voranzukommen und in der Rangliste voranzukommen.
+        </p> 
+    </section> 
+  
+
+</p>
+              Chatroom
+  </p>
+    <section id="chat-section"> 
+        <div id="chat-messages"> 
+            <!-- Chat messages will be displayed here --> 
+        </div> 
+        <input type="text" id="message-input"> 
+        <button onclick="sendMessage()">Abschicken</button> 
+    </section> 
+    <footer> 
+        <p>© 2024 Ferdinand Bodmann, Vincent Langkammer und Leander Rose |</p> 
+    </footer> 
+    <script> 
+        function sendMessage() { 
+            var message = document.getElementById("message-input").value; 
+            // Code to send the message to the server and display it in the chat room 
+        } 
+    </script> 
+</body> 
+</html>
